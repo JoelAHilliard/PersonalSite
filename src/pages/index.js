@@ -12,7 +12,8 @@ const IndexPage = () => {
       <div class="short-biography">
         <img id = "user-image" src= {MainPhoto} />
         <h1>I'm {Info.FullName}</h1>
-        <h2>A {Info.JobTitle} at <a href={Info.CompanyWebsite}>{Info.CompanyName}</a></h2>
+        <h2>A {Info.StudentMajor} major at <a href={Info.SchoolWebsite}>{Info.SchoolName}</a></h2>
+
       </div>
 
       <Contact />
